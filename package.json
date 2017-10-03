@@ -1,0 +1,31 @@
+{
+  "name": "handlebars-precompiler",
+  "version": "0.0.1",
+  "description": "A webpack plugin which is intended to precompile handlebars templates, partials and helpers into one concatenated file",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitriy Dudkevich <dyda06@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "handlebars": "^4.0.10",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DudaGod/handlebars-precompiler.git"
+  },
+  "keywords": [
+    "webpack",
+    "handlebars",
+    "plugin",
+    "precompile"
+  ],
+  "bugs": {
+    "url": "https://github.com/DudaGod/handlebars-precompiler/issues"
+  },
+  "homepage": "https://github.com/DudaGod/handlebars-precompiler"
+}
