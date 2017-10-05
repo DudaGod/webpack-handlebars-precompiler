@@ -1,6 +1,6 @@
 {
   "name": "webpack-handlebars-precompiler",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A webpack plugin which is intended to precompile handlebars templates, partials and helpers into one concatenated file",
   "main": "lib/index.js",
   "scripts": {
