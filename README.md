@@ -14,13 +14,14 @@ A webpack plugin to precompile handlebars templates, partials and helpers into o
 const HandlebarsPrecompiler = require('webpack-handlebars-precompiler');
 
 module.exports = {
-  ...
-  plugins: [
-    new HandlebarsPrecompiler({
-      templatesDir: path.join(__dirname, 'templates'),
-      templateExt: '.hbs',
-      helpersDir: path.join(__dirname, 'helpers'),
-      outputFile: path.join(__dirname, 'some/folder/bundle.js')
+    ...
+    plugins: [
+        new HandlebarsPrecompiler({
+            precompileOpts: {preventIndent: true},
+            templatesPath: path.join(__dirname, 'templates'),
+            templatesExt: '.hbs',
+            helpersPath: path.join(__dirname, 'helpers'),
+            outputFile: path.join(__dirname, 'some/folder/bundle.js')
     })
   ]
   ...
