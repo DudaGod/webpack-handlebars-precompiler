@@ -20,7 +20,7 @@ module.exports = {
             precompileOpts: {preventIndent: true},
             templatesPath: path.join(__dirname, 'templates'),
             templatesExt: '.hbs',
-            helpersPath: path.join(__dirname, 'helpers'),
+            helpersPath: path.join(__dirname, 'helpers'), // optional
             outputFile: path.join(__dirname, 'some/folder/bundle.js')
     })
   ]
